@@ -23,6 +23,7 @@ provider.addScope('https://www.googleapis.com/auth/plus.login');
   var token = result.credential.accessToken;
   // The signed-in user info.
   var user = result.user;
+  console.log(user);
   // ...
 }).catch(function(error) {
   // Handle Errors here.
@@ -78,12 +79,12 @@ provider.addScope('https://www.googleapis.com/auth/plus.login');
 		// console.log(tempPod)
 		database.ref().push(tempPod);
 
-		$("#escape-pod.id").val("");
+		$("#escape-pod-id").val("");
 		$("#destination").val("");
 		$("#start-time").val("");
 		$("#frequency").val("");
 
-	
+	return false;
 	});
 
 	database.ref().on("child_added", function(childSnapshot, prevChildKey) {
