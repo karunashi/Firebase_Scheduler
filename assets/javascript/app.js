@@ -86,11 +86,11 @@ firebase.auth().signOut().then(function() {
 ///// GOOGLE AUTHENTICATION TEST
 var provider = new firebase.auth.GoogleAuthProvider();
 
-provider.addScope('https://www.googleapis.com/auth/plus.login');
+// provider.addScope('https://www.googleapis.com/auth/plus.login');
 
-provider.setCustomParameters({
-  'login_hint': 'user@example.com'
-});
+// provider.setCustomParameters({
+//   'login_hint': 'user@example.com'
+// });
 
 firebase.auth().signInWithPopup(provider).then(function(result) {
   // This gives you a Google Access Token. You can use it to access the Google API.
