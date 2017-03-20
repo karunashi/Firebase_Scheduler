@@ -12,7 +12,7 @@
 ///// GOOGLE AUTHENTICATION TEST
 var provider = new firebase.auth.GoogleAuthProvider();
 
-provider.addScope('https://www.googleapis.com/auth/plus.login');
+// provider.addScope('https://www.googleapis.com/auth/plus.login');
 
 // provider.setCustomParameters({
 //   'login_hint': 'user@example.com'
