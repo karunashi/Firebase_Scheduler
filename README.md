@@ -1,7 +1,7 @@
 # Firebase Scheduler
 
 ## Live Link (If relevant)
- - www.example.com
+ - https://karunashi.github.io/Firebase_Scheduler/
 
 ## Description on how to use the app
 The table in the top half portion has been integrated with moment.js. The form input on the bottom half portion allows user to add data into the database (Firebase) as long as formatting matters. Database will be checked perioodically to review all content to be correctly formatted. Time remaining in the tables are accurate based on user's internal (local) computer.
