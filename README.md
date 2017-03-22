@@ -1,6 +1,6 @@
 # Firebase Scheduler
 
-## Live Link (If relevant)
+## Live Link
  - https://karunashi.github.io/Firebase_Scheduler/
 
 ## Description on how to use the app
